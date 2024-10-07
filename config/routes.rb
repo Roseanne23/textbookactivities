@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'posts/index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
@@ -6,4 +7,5 @@ Rails.application.routes.draw do
 
   get 'about_us', to: 'welcome#about_us'
   get 'contact', to: 'welcome#contact'
+  get 'posts', to: 'posts#index'
 end
