@@ -1,7 +1,5 @@
 class WelcomeController < ApplicationController
-def index
-  @address = 'makati'
-end
+def index; end
 
 def about_us; end
 
